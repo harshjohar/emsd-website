@@ -1,0 +1,112 @@
+@import "../variables.scss";
+
+.heading {
+    text-align: center;
+    color: $acm-primary;
+    position: relative;
+    margin: 20px 0;
+    margin-bottom: 40px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 60px;
+        left: 50%;
+        transform: translate(-50%);
+        background: #000;
+        bottom: -20px;
+    }
+}
+
+.heads {
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .card {
+        margin: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+
+        img {
+            height: 200px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        .name {
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .designation {
+            text-align: center;
+            font-size: 12px;
+        }
+        a {
+            color: $acm-primary;
+        }
+    }
+}
+@media screen and (max-width: $navbar-breakpoint) {
+    .heads {
+        .card {
+            img {
+                height: 150px !important;
+                width: 150px !important;
+            }
+        }
+    }
+
+    .core {
+        .cards {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+    .heads {
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .card {
+            img {
+                height: 200px !important;
+                width: 200px !important;
+            }
+        }
+    }
+
+    .core {
+        .cards {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heads .card img {
+        height: 140px !important;
+        width: 140px !important;
+    }
+    .core {
+        .cards {
+            grid-template-columns: repeat(1, 1fr);
+            width: 90%;
+        }
+    }
+}

@@ -1,0 +1,133 @@
+@import "../variables.scss";
+
+.heading {
+    text-align: center;
+    color: $acm-primary;
+    position: relative;
+    margin: 20px 0;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 60px;
+        left: 50%;
+        transform: translate(-50%);
+        background: #000;
+        bottom: -20px;
+    }
+}
+
+.core {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h3 {
+        font-size: 28px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        max-width: 1200px;
+        width: 100%;
+        background-color: #f2f4f6;
+        border-radius: 20px;
+        padding: 0 20px;
+        justify-items: center;
+
+        .card {
+            width: 300px;
+            display: flex;
+            max-width: 400px;
+            padding: 10px;
+            background: #fff;
+            margin: 20px 5px;
+            align-items: center;
+            border-radius: 20px;
+
+            img {
+                height: 80px;
+                width: 80px;
+                border-radius: 30px;
+                object-fit: contain;
+            }
+
+            .data {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 10px;
+
+                .post {
+                    font-weight: 200;
+                    font-size: 12px;
+                }
+
+                .track {
+                    font-weight: 350;
+                    font-size: 12px;
+                    color: green;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $navbar-breakpoint) {
+    .heads {
+        .card {
+            img {
+                height: 150px !important;
+                width: 150px !important;
+            }
+        }
+    }
+
+    .core {
+        .cards {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+    .heads {
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .card {
+            img {
+                height: 200px !important;
+                width: 200px !important;
+            }
+        }
+    }
+
+    .core {
+        .cards {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heads .card img {
+        height: 140px !important;
+        width: 140px !important;
+    }
+    .core {
+        .cards {
+            grid-template-columns: repeat(1, 1fr);
+            width: 90%;
+        }
+    }
+}

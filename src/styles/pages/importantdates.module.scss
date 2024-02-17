@@ -1,0 +1,31 @@
+@import "../variables.scss";
+
+.event__title {
+    font: bold;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+.heading {
+    text-align: center;
+    color: $acm-primary;
+    position: relative;
+    margin: 20px 0;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 60px;
+        left: 50%;
+        transform: translate(-50%);
+        background: #000;
+        bottom: -20px;
+    }
+}
+
+.date {
+    font-weight: 900 !important;
+    font-size: 18px;
+    color: black !important;
+}
