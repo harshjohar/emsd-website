@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    /* font-family: "gilroy"; */
+}
+*::selection{
+  background: lightgreen;
+  color: black;
+}
+img::selection{
+  background-color: transparent;
+}
+button,
+a {
+    all: unset;
+}
+button{
+    border-radius: 20px;
+}
+a,
+button {
+    cursor: pointer;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Style for scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 12px; /* Adjust the border-radius as needed */
+  }
+  
+  /* Style for scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Make the scrollbar thinner */
+  ::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+  }

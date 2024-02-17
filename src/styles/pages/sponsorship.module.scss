@@ -1,0 +1,57 @@
+@import "../variables.scss";
+
+.heading {
+    text-align: center;
+    color: $acm-primary;
+    position: relative;
+    margin: 20px 0;
+    margin-bottom: 40px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 60px;
+        left: 50%;
+        transform: translate(-50%);
+        background: #000;
+        bottom: -20px;
+    }
+}
+
+.description {
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.subheading {
+    margin: 10px 0;
+}
+
+.sponsor_class {
+
+    padding: 20px 0;
+    h3 {
+        font-size: 20px;
+        text-decoration: underline;
+        color: $acm-primary;
+        margin-bottom: 10px;
+    }
+
+    p {
+        line-height: 20px;
+        text-align: justify;
+
+        span {
+            font-weight: 700;
+        }
+    }
+}
+
+.note {
+    font-weight: 700;
+    font-style: italic;
+    color: green;
+    text-decoration: underline;
+}
