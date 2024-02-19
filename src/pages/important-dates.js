@@ -46,7 +46,7 @@ const events = [
 
 function ImportantDates() {
     return (
-        <PageLayout title={"Important Dates | Indiscon 2024 "}>
+        <PageLayout title={"Important Dates | EMSD 2024"}>
             <div>
                 <h1 className={styles.heading}>Timeline</h1>
                 <VerticalTimeline lineColor="rgb(48, 111, 160)">
