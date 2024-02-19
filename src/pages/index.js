@@ -12,41 +12,44 @@ import { LaptopMac } from "@mui/icons-material";
 import { BiTrophy } from "react-icons/bi";
 import "react-vertical-timeline-component/style.min.css";
 const events = [
-  {
-      title: "Abstract Submission",
-      date: "April 10, 2024",
-      description: "",
-      icon: <LaptopMac />,
-  },
-  {
-      title: "Notification of Acceptance",
-      date: "April 15, 2024",
-      description: "",
-      icon: <BiTrophy />,
-  },
-  {
-      title: "Early bird Registration",
-      date: "May 20, 2024",
-      description: "",
-      icon: <BiTrophy />,
-  },
-  {
-      title:"Last date of registration",
-      date:"June 20, 2024",
-      description:"",
-      icon:<BiTrophy/>,
-  },
-  {
-      title: "Conference dates",
-      date: "July 24-26, 2024",
-      description: "",
-      icon: <BiTrophy />,
-  },
+    {
+        title: "Abstract Submission",
+        date: "April 10, 2024",
+        description: "",
+        icon: <LaptopMac />,
+    },
+    {
+        title: "Notification of Acceptance",
+        date: "April 15, 2024",
+        description: "",
+        icon: <BiTrophy />,
+    },
+    {
+        title: "Early bird Registration",
+        date: "May 20, 2024",
+        description: "",
+        icon: <BiTrophy />,
+    },
+    {
+        title: "Last date of registration",
+        date: "June 20, 2024",
+        description: "",
+        icon: <BiTrophy />,
+    },
+    {
+        title: "Conference dates",
+        date: "July 24-26, 2024",
+        description: "",
+        icon: <BiTrophy />,
+    },
 ];
 export default function Home() {
-  return <>
+    return (
+        <>
             <PageLayout
-                title={"EMSD 2024 | Punjab Engineering College |National Agri-Food Biotechnology Institute"}
+                title={
+                    "EMSD 2024 | Punjab Engineering College |National Agri-Food Biotechnology Institute"
+                }
                 description={
                     "The 'Engineered Materials for Sustainable Development' conference addresses the urgent need for sustainable practices. It focuses on identifying,enhance sustainability across various fields. The event synthesizing, and applying engineered materials to promotes collaboration among experts, researchers,and industry leaders, providing a platform for sharing advancements. A pre-conference workshop explores applications in environmental and healthcare contexts.The conference encourages a comprehensive approach to sustainable solutions, fostering dialogue between researchers and industry professionals for effective commercialization. Global participation ensures diverse perspectives and international collaboration."
                 }
@@ -62,7 +65,7 @@ export default function Home() {
                     className={styles.main}
                     style={{
                         backgroundImage: `url(${getAssetName(
-                            "/assets/images/college/all-clg-1.png"
+                            "/assets/images/college/pec_chowk.png"
                         )})`,
                         // height: "80vh",
                         // width: "100%",
@@ -72,7 +75,8 @@ export default function Home() {
                 >
                     <div className={styles.hero_box}>
                         <p className={styles.sub_heading}>
-                            International Conference on Engineered Materials for Sustainable Development 
+                            International Conference on Engineered Materials for
+                            Sustainable Development
                         </p>
                         <h1>
                             EMSD <span>2024</span>
@@ -84,9 +88,13 @@ export default function Home() {
                             }}
                         />
                     </div>
-                    <h2 className={styles.theme} style={{fontSize:"3vw",fontWeight:400}}>
-                        <i>Jointly organised by </i><strong>PEC & NABI</strong>
-                    </h2>
+                    {/* <h2
+                        className={styles.theme}
+                        style={{ fontSize: "3vw", fontWeight: 400 }}
+                    >
+                        <i>Jointly organised by </i>
+                        <strong>PEC & NABI</strong>
+                    </h2> */}
                     <div className={styles.venue_details}>
                         <div className={styles.dates}>
                             <h3>Conference Dates</h3>
@@ -103,15 +111,27 @@ export default function Home() {
 
                 <div className={styles.info}>
                     <p>
-                    The "Engineered Materials for Sustainable Development" conference addresses the urgent need for sustainable practices. It focuses on identifying,enhance sustainability across various fields. The event synthesizing, and applying engineered materials to promotes collaboration among experts, researchers,and industry leaders, providing a platform for sharing advancements. A pre-conference workshop explores applications in environmental and healthcare contexts.The conference encourages a comprehensive approach to sustainable solutions, fostering dialogue between researchers and industry professionals for effective commercialization. Global participation ensures diverse perspectives and international
-                    collaboration.
-
+                        The &ldquo;Engineered Materials for Sustainable
+                        Development&rdquo; conference addresses the urgent need
+                        for sustainable practices. It focuses on
+                        identifying,enhance sustainability across various
+                        fields. The event synthesizing, and applying engineered
+                        materials to promotes collaboration among experts,
+                        researchers,and industry leaders, providing a platform
+                        for sharing advancements. A pre-conference workshop
+                        explores applications in environmental and healthcare
+                        contexts.The conference encourages a comprehensive
+                        approach to sustainable solutions, fostering dialogue
+                        between researchers and industry professionals for
+                        effective commercialization. Global participation
+                        ensures diverse perspectives and international
+                        collaboration.
                     </p>
                 </div>
 
                 <div className={styles.banner}>
                     <VerticalTimeline
-                        lineColor="rgb(48, 111, 160)"
+                        lineColor="rgb(86, 162, 140)"
                         animate={false}
                     >
                         {events.map((event, i) => {
@@ -120,18 +140,18 @@ export default function Home() {
                                     key={i}
                                     className="vertical-timeline-element--work"
                                     contentStyle={{
-                                        background: "rgba(48, 111, 160, 0.2)",
+                                        background: "rgba(173, 239, 223, 0.4)",
                                         backdropFilter: "blur( 8px )",
                                         boxShadow:
                                             "0 8px 32px 0 rgba( 0, 0, 0, 0.18 )",
                                         borderRadius: "10px",
-                                        border: "1px solid rgba( 255, 255, 255, 0.18 )",
+                                        border: "1px solid rgba(173, 239, 223, 0.4)",
                                         position: "relative",
                                         zIndex: "0",
                                     }}
                                     contentArrowStyle={{
                                         borderRight:
-                                            "7px solid  rgb(33, 150, 243)",
+                                            "7px solid  rgb(86, 162, 140)",
                                     }}
                                     date={event.date}
                                     dateClassName={styles.date}
@@ -175,5 +195,5 @@ export default function Home() {
                 </div>
             </PageLayout>
         </>
-  ;
+    );
 }
