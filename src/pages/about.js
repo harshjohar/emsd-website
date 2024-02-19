@@ -80,7 +80,7 @@ function About() {
             <div className={styles.about}>
                 <div className={styles.description}>
                     <p className={styles.about_text}>
-                    The <strong>"Engineered Materials for Sustainable Development" </strong>conference addresses the urgent need for sustainable practices. It focuses on identifying, synthesizing, and applying engineered materials to enhance sustainability across various fields. The event promotes collaboration among experts, researchers, and industry leaders, providing a platform for sharing advancements. A pre-conference workshop explores applications in environmental and healthcare contexts. The conference encourages a comprehensive approach to sustainable solutions, fostering dialogue between researchers and industry professionals for effective commercialization. Global participation ensures diverse perspectives and international collaboration.
+                    The <strong>&ldquo;Engineered Materials for Sustainable Development&rdquo; </strong>conference addresses the urgent need for sustainable practices. It focuses on identifying, synthesizing, and applying engineered materials to enhance sustainability across various fields. The event promotes collaboration among experts, researchers, and industry leaders, providing a platform for sharing advancements. A pre-conference workshop explores applications in environmental and healthcare contexts. The conference encourages a comprehensive approach to sustainable solutions, fostering dialogue between researchers and industry professionals for effective commercialization. Global participation ensures diverse perspectives and international collaboration.
                     </p>
                     
                 </div>
