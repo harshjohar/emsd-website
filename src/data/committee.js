@@ -94,13 +94,7 @@ export const COMMITTEE = {
             // track: "RF/Microwave/Terahertz Technologies",
             // link: "https://iitism.irins.org/profile/97523",
         },
-        {
-            name: "Dr. Harshavardhan Reddy Kalluru",
-            designation: "Assistant Professor, Physics Department, PEC, CHD",
-            image_url: "/assets/committee/dr-harshavardhan-reddy.jpg",
-            // track: "Semiconductor Devices",
-            // link: "http://www.cense.iisc.ac.in/aditya-sadhanala",
-        },
+
         {
             name: "Dr. Tripti Gupta",
             designation: "Assistant Professor, Physics Department, PEC, CHD",

@@ -24,36 +24,7 @@ const collegeContent=[
         link:"https://nabi.res.in/"
     },
 ]
-const prevEditionData = [
-    {
-        name: "IEEE INDISCON 2023",
-        venue: "GSSS Institute of Engineering & Technology for Women, Mysuru",
-        dates: "August 5-7, 2023",
-        theme: "Computational Intelligence and Learning Systems",
-        link: "https://ieeexplore.ieee.org/xpl/conhome/10269798/proceeding",
-    },
-    {
-        name: "IEEE INDISCON 2022",
-        venue: "KIIT Deemed to be University, Bhubaneswar",
-        dates: "July 15-17, 2022",
-        theme: "Impactful Innovations for Benefits of Society and Industry",
-        link: "https://ieeexplore.ieee.org/xpl/conhome/9862528/proceeding",
-    },
-    {
-        name: "IEEE INDISCON 2021",
-        venue: "Visvesvaraya National Institute of Technology, Nagpur",
-        dates: "August 27-29, 2021",
-        link: "https://ieeexplore.ieee.org/xpl/conhome/9581282/proceeding",
-        theme: "Impactful innovations for the benefit of industry and society",
-    },
-    {
-        name: "IEEE INDISCON 2020",
-        venue: "Gayatri Vidya Parishad College of Engineering, Visakhapatnam",
-        dates: "October 3-4, 2020",
-        theme: "Smart and Sustainable Systems - Decade Ahead",
-        link: "https://ieeexplore.ieee.org/xpl/conhome/9344449/proceeding",
-    },
-];
+
 function CollegeAbout({content,heading,link}){
     return(<>
          <h1 className={styles.college_heading}>
@@ -75,7 +46,7 @@ function CollegeAbout({content,heading,link}){
 }
 function About() {
     return (
-        <PageLayout title={"About Indiscon 2024 | Punjab Engineering College"}>
+        <PageLayout title={"About | EMSD 2024"}>
             <h1 className={styles.heading}>About Conference</h1>
             <div className={styles.about}>
                 <div className={styles.description}>

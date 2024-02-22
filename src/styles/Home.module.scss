@@ -58,7 +58,7 @@
         font-weight: 400;
         padding: 10px 30px;
         border-radius: 20px 0 0 20px;
-        
+
         backdrop-filter: blur(4px);
         -webkit-backdrop-filter: blur(4px);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
@@ -71,6 +71,7 @@
         }
 
         .venue {
+
             // width: 60%;
             p {
                 font-size: 16px;
@@ -159,6 +160,7 @@
     display: flex;
     gap: 30px;
 }
+
 .marquee {
     color: red;
     font-weight: 600;
@@ -178,6 +180,159 @@
     }
 }
 
+.pre_conference_container {
+
+    margin-top: 10px;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg,#fefeda 0%, #F7E8A4 50%, #FFE381 100%);
+    border-radius: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+
+    .heading {
+        font-size: 33px;
+        color: #424651;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        // flex-direction: column;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .sub_heading {
+        padding-bottom: 20px;
+        font-size: 28px;
+        color: $acm-primary;
+        font-weight: 500;
+        // display: flex;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .date {
+        font-size: 20px;
+        color: $acm-primary;
+        font-style: italic;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+
+    }
+
+    .highlight {
+        font-size: 18px;
+        color: #424651;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+
+    }
+
+    
+}
+
+.heads {
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .card {
+        margin: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        
+
+        img {
+            height: 200px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            object-fit: cover;
+            
+        }
+
+        .name {
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .designation {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        a {
+            color: $acm-primary;
+        }
+    }
+}
+
+@media screen and (max-width: $navbar-breakpoint) {
+    .heads {
+        .card {
+            img {
+                height: 150px !important;
+                width: 150px !important;
+            }
+        }
+    }
+
+    .core {
+        .cards {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: $tablet-breakpoint) {
+    .heads {
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .card {
+            img {
+                height: 200px !important;
+                width: 200px !important;
+            }
+        }
+    }
+
+    .core {
+        .cards {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heads .card img {
+        height: 140px !important;
+        width: 140px !important;
+    }
+
+    .core {
+        .cards {
+            grid-template-columns: repeat(1, 1fr);
+            width: 90%;
+        }
+    }
+}
+
+
 .banner {
     padding: 50px 0;
 
@@ -192,6 +347,7 @@
         h3 {
             margin: 20px 0;
         }
+
         div {
             margin: 20px 0;
             width: 100%;

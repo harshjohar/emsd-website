@@ -11,6 +11,8 @@ import {
 import { LaptopMac } from "@mui/icons-material";
 import { BiTrophy } from "react-icons/bi";
 import "react-vertical-timeline-component/style.min.css";
+// import {styles.head} from "@/styles/pages/speakers.module.scss";
+
 const events = [
     {
         title: "Abstract Submission",
@@ -37,12 +39,40 @@ const events = [
         icon: <BiTrophy />,
     },
     {
+        title: "Pre-Conference Workshop",
+        date: "July 24, 2024",
+        description: "",
+        icon: <BiTrophy />,
+    },
+    {
         title: "Conference dates",
         date: "July 24-26, 2024",
         description: "",
         icon: <BiTrophy />,
     },
 ];
+
+const pre_speaker = [
+    {
+        name: "Dr. Reinhard Miller",
+        image: "/assets/speakers/reinhard.png",
+        designation: "TU Darmstadt, Germany",
+        // link: "https://research.manchester.ac.uk/en/persons/a.song",
+    },
+    {
+        name: "Professor Dong Kwon Lim",
+        image: "/assets/speakers/dongkwon.png",
+        designation: "Korea University, South Korea",
+        // link: "https://didattica.uniroma2.it/docenti/curriculum/3746-Gian-Carlo-Cardarilli/",
+    },
+    {
+        name: "Professor Ajeet Kaushik",
+        image: "/assets/speakers/akaushik.png",
+        designation: "Florida Polytechnic University, USA ",
+        // link: "https://www.linkedin.com/in/dr-ahmad-atieh-a9586a62/?originalSubdomain=ca",
+    }
+];
+
 export default function Home() {
     return (
         <>
@@ -129,6 +159,49 @@ export default function Home() {
                     </p>
                 </div>
 
+                <div className={styles.pre_conference_container}>
+                    <p className={styles.sub_heading}>Pre Conference Workshop on </p>
+                    <h1 className={styles.heading}>
+                        &ldquo;Engineered Materials for Environmental and
+                        Healthcare Applications&rdquo;
+                    </h1>
+                    <h3 className={styles.date}>JULY 24</h3>
+                    <ul className={styles.highlight}>
+                        <li>Workshop Highlight : Expert talk on “Achieving High Impact
+                            Factor Journal Publications”
+                            by Dr. Reinhard Miller</li>
+                    </ul>
+
+                    <p className={styles.sub_heading}><u>Workshop Speakers</u></p>
+                    
+                    <div className={styles.heads}>
+                        <div className={styles.cards}>
+                            {pre_speaker.map((head, i) => {
+                                const image =
+                                    head.image.length != 0
+                                        ? getAssetName(head.image)
+                                        : getAssetName("/assets/logos/1.png");
+                                return (
+                                    <div className={`${styles.card}`} key={i}>
+                                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                                        <img
+                                            height={200}
+                                            width={200}
+                                            src={getAssetName(image)}
+                                            alt={head.name}
+                                        />
+                                        <p className={styles.name}>{head.name}</p>
+                                        <p className={styles.designation}>
+                                            {head.designation}
+                                        </p>
+                                        
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                </div>
+
                 <div className={styles.banner}>
                     <VerticalTimeline
                         lineColor="rgb(86, 162, 140)"
@@ -172,7 +245,7 @@ export default function Home() {
 
                     <hr className={styles.divider} />
 
-                    <div className={styles.paper_wrapper}>
+                    {/* <div className={styles.paper_wrapper}>
                         <div className={styles.register}>
                             <a
                                 href="\EMSD 2024 CHD.pdf"
@@ -184,14 +257,14 @@ export default function Home() {
                         </div>
                         <div className={styles.register}>
                             <a
-                                href="#"
+                                href="https://forms.gle/7geEA5CVVYVK6Ujz8"
                                 target="_blank"
                                 referrerPolicy="no-referrer"
                             >
                                 <button>Submit your paper</button>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </PageLayout>
         </>
