@@ -37,6 +37,12 @@ const events = [
         icon: <BiTrophy />,
     },
     {
+        title: "Pre-Conference Workshop",
+        date: "July 24, 2024",
+        description: "",
+        icon: <BiTrophy />,
+    },
+    {
         title: "Conference dates",
         date: "July 24-26, 2024",
         description: "",

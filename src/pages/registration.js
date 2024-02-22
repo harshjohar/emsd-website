@@ -64,6 +64,15 @@ function Registration() {
                     <button>Register</button>
                 </a>
             </div>
+            <div className={styles.register}>
+                    <a
+                        href="https://forms.gle/7geEA5CVVYVK6Ujz8"
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                    >
+                        <button>Submit your Abstract</button>
+                    </a>
+            </div>
             <div className={styles.section}>
                     <h2 className={styles.section_heading}>Submission of Papers</h2>
                     <p className={styles.section_details}>
