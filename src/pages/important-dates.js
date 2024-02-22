@@ -37,6 +37,12 @@ const events = [
         icon: <BiTrophy />,
     },
     {
+        title: "Pre-Conference Workshop",
+        date: "July 24, 2024",
+        description: "",
+        icon: <BiTrophy />,
+    },
+    {
         title: "Conference dates",
         date: "July 24-26, 2024",
         description: "",
@@ -46,7 +52,7 @@ const events = [
 
 function ImportantDates() {
     return (
-        <PageLayout title={"Important Dates | Indiscon 2024 "}>
+        <PageLayout title={"Important Dates | EMSD 2024"}>
             <div>
                 <h1 className={styles.heading}>Timeline</h1>
                 <VerticalTimeline lineColor="rgb(48, 111, 160)">

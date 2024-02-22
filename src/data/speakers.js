@@ -1,6 +1,6 @@
 export const SPEAKERS = [
     {
-        name: "Professor Reinhard Miller",
+        name: "Dr. Reinhard Miller",
         image: "/assets/speakers/reinhard.png",
         designation: "TU Darmstadt, Germany",
         // link: "https://research.manchester.ac.uk/en/persons/a.song",

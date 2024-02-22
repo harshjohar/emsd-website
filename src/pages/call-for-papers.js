@@ -41,7 +41,7 @@ const materials= [
   ]
 function CallForPapers() {
     return (
-        <PageLayout title={"Call For Papers | Indiscon 2024"}>
+        <PageLayout title={"Call For Papers | EMSD 2024"}>
             <h1 className={styles.heading}>Call For Papers</h1>
             <p className={styles.subheading}>
             <strong>EMSD-2024</strong> serves as a premier platform showcasing groundbreaking advancements and scholarly discoveries in Engineered Materials for Sustainable Development. This conference will comprehensively cover a diverse range of topics, including but not limited to material synthesis, environmental applications, sustainable energy solutions, and innovative manufacturing techniques. With a focus on sustainability and interdisciplinary collaboration, EMSD-2024 promises to catalyze transformative progress towards a more sustainable future.

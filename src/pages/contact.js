@@ -21,7 +21,7 @@ function Contact() {
                 <div className={styles.contact_details}>
                     <p>Address for Correspondence </p>
                     <p></p>
-                    <p>Prof. Sandeep Kumar/Prof Nitin Kumar Singha</p>
+                    <p>Prof. Sandeep Kumar(PEC)/Prof Nitin Kumar Singhal(NABI)</p>
                     <p>
                     </p>
                     <p> Punjab Engineering College, </p>
