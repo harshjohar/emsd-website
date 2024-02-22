@@ -55,24 +55,28 @@ function ImportantDates() {
         <PageLayout title={"Important Dates | EMSD 2024"}>
             <div>
                 <h1 className={styles.heading}>Timeline</h1>
-                <VerticalTimeline lineColor="rgb(48, 111, 160)">
+                <VerticalTimeline
+                    lineColor="rgb(86, 162, 140)"
+                    animate={true}
+                    layout="1-column-left"
+                >
                     {events.map((event, i) => {
                         return (
                             <VerticalTimelineElement
                                 key={i}
                                 className="vertical-timeline-element--work"
                                 contentStyle={{
-                                    background: "rgba(48, 111, 160, 0.2)",
+                                    background: "rgba(173, 239, 223, 0.4)",
                                     backdropFilter: "blur( 8px )",
                                     boxShadow:
                                         "0 8px 32px 0 rgba( 0, 0, 0, 0.18 )",
                                     borderRadius: "10px",
-                                    border: "1px solid rgba( 255, 255, 255, 0.18 )",
+                                    border: "1px solid rgba(173, 239, 223, 0.4)",
                                     position: "relative",
                                     zIndex: "0",
                                 }}
                                 contentArrowStyle={{
-                                    borderRight: "7px solid  rgb(33, 150, 243)",
+                                    borderRight: "7px solid  rgb(86, 162, 140)",
                                 }}
                                 date={event.date}
                                 dateClassName={styles.date}

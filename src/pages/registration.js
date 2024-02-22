@@ -55,7 +55,7 @@ function Registration() {
     return (
         <PageLayout title={"Registration | EMSD'24"}>
             <h1 className={styles.heading}>Registration</h1>
-            <div className={styles.register}>
+            {/* <div className={styles.register}>
                 <a
                     href="#"
                     target="_blank"
@@ -63,7 +63,7 @@ function Registration() {
                 >
                     <button>Register</button>
                 </a>
-            </div>
+            </div> */}
             <div className={styles.register}>
                     <a
                         href="https://forms.gle/7geEA5CVVYVK6Ujz8"

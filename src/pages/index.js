@@ -70,7 +70,7 @@ const pre_speaker = [
         image: "/assets/speakers/akaushik.png",
         designation: "Florida Polytechnic University, USA ",
         // link: "https://www.linkedin.com/in/dr-ahmad-atieh-a9586a62/?originalSubdomain=ca",
-    }
+    },
 ];
 
 export default function Home() {
@@ -125,7 +125,7 @@ export default function Home() {
                         <i>Jointly organised by </i>
                         <strong>PEC & NABI</strong>
                     </h2> */}
-                    <div className={styles.venue_details}>
+                    {/* <div className={styles.venue_details}>
                         <div className={styles.dates}>
                             <h3>Conference Dates</h3>
                             <p>July 24-26, 2024</p>
@@ -136,7 +136,7 @@ export default function Home() {
                             <p>(Deemed to be University)</p>
                             <p> Sector 12, Chandigarh, India</p>
                         </div>
-                    </div>
+                    </div> */}
                 </main>
 
                 <div className={styles.info}>
@@ -160,20 +160,26 @@ export default function Home() {
                 </div>
 
                 <div className={styles.pre_conference_container}>
-                    <p className={styles.sub_heading}>Pre Conference Workshop on </p>
+                    <p className={styles.sub_heading}>
+                        Pre Conference Workshop on{" "}
+                    </p>
                     <h1 className={styles.heading}>
                         &ldquo;Engineered Materials for Environmental and
                         Healthcare Applications&rdquo;
                     </h1>
                     <h3 className={styles.date}>JULY 24</h3>
                     <ul className={styles.highlight}>
-                        <li>Workshop Highlight : Expert talk on “Achieving High Impact
-                            Factor Journal Publications”
-                            by Dr. Reinhard Miller</li>
+                        <li>
+                            Workshop Highlight : Expert talk on “Achieving High
+                            Impact Factor Journal Publications” by Dr. Reinhard
+                            Miller
+                        </li>
                     </ul>
 
-                    <p className={styles.sub_heading}><u>Workshop Speakers</u></p>
-                    
+                    <p className={styles.sub_heading}>
+                        <u>Workshop Speakers</u>
+                    </p>
+
                     <div className={styles.heads}>
                         <div className={styles.cards}>
                             {pre_speaker.map((head, i) => {
@@ -187,14 +193,15 @@ export default function Home() {
                                         <img
                                             height={200}
                                             width={200}
-                                            src={getAssetName(image)}
+                                            src={image}
                                             alt={head.name}
                                         />
-                                        <p className={styles.name}>{head.name}</p>
+                                        <p className={styles.name}>
+                                            {head.name}
+                                        </p>
                                         <p className={styles.designation}>
                                             {head.designation}
                                         </p>
-                                        
                                     </div>
                                 );
                             })}
@@ -203,9 +210,31 @@ export default function Home() {
                 </div>
 
                 <div className={styles.banner}>
+                    <div className={styles.paper_wrapper}>
+                        <div className={styles.register}>
+                            <a
+                                href="\EMSD 2024 CHD.pdf"
+                                target="_blank"
+                                referrerPolicy="no-referrer"
+                            >
+                                <button>Call for Papers</button>
+                            </a>
+                        </div>
+                        <div className={styles.register}>
+                            <a
+                                href="https://forms.gle/7geEA5CVVYVK6Ujz8"
+                                target="_blank"
+                                referrerPolicy="no-referrer"
+                            >
+                                <button>Submit your Abstract</button>
+                            </a>
+                        </div>
+                    </div>
+                    <hr className={styles.divider} />
                     <VerticalTimeline
                         lineColor="rgb(86, 162, 140)"
-                        animate={false}
+                        animate={true}
+                        layout="1-column-left"
                     >
                         {events.map((event, i) => {
                             return (
@@ -242,29 +271,6 @@ export default function Home() {
                             );
                         })}
                     </VerticalTimeline>
-
-                    <hr className={styles.divider} />
-
-                    {/* <div className={styles.paper_wrapper}>
-                        <div className={styles.register}>
-                            <a
-                                href="\EMSD 2024 CHD.pdf"
-                                target="_blank"
-                                referrerPolicy="no-referrer"
-                            >
-                                <button>Call for Papers</button>
-                            </a>
-                        </div>
-                        <div className={styles.register}>
-                            <a
-                                href="https://forms.gle/7geEA5CVVYVK6Ujz8"
-                                target="_blank"
-                                referrerPolicy="no-referrer"
-                            >
-                                <button>Submit your paper</button>
-                            </a>
-                        </div>
-                    </div> */}
                 </div>
             </PageLayout>
         </>
