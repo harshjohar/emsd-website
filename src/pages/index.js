@@ -9,7 +9,7 @@ import {
 import { LaptopMac } from "@mui/icons-material";
 import { BiTrophy } from "react-icons/bi";
 import "react-vertical-timeline-component/style.min.css";
-// import {styles.head} from "@/styles/pages/speakers.module.scss";
+import styles from "@/styles/Home.module.scss";
 
 const events = [
     {
