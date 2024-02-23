@@ -30,6 +30,9 @@ function Contact() {
                     <a href="mailto: emsdpec2024@gmail.com">
                         emsdpec2024@gmail.com
                     </a>
+                    <p>Contact:</p>
+                    <p>Mr. Kamil Monga (94683 47173)</p>
+                    <p>Mr. Nitesh Priyadarshi (95697 41690)</p>
                 </div>
             </div>
         </PageLayout>

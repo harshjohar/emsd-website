@@ -55,15 +55,15 @@ function Registration() {
     return (
         <PageLayout title={"Registration | EMSD'24"}>
             <h1 className={styles.heading}>Registration</h1>
-            {/* <div className={styles.register}>
+            <div className={styles.register}>
                 <a
-                    href="#"
+                    href="https://forms.gle/mGdapfcZhaf7ZBMA7"
                     target="_blank"
                     referrerPolicy="no-referrer"
                 >
                     <button>Register</button>
                 </a>
-            </div> */}
+            </div>
             <div className={styles.register}>
                     <a
                         href="https://forms.gle/7geEA5CVVYVK6Ujz8"
@@ -74,10 +74,10 @@ function Registration() {
                     </a>
             </div>
             <div className={styles.section}>
-                    <h2 className={styles.section_heading}>Submission of Papers</h2>
+                    <h2 className={styles.section_heading}>Submission of Abstract</h2>
                     <p className={styles.section_details}>
                         Authors are required to submit one page abstract
-                        through mail (emsdpec2024@gmail.com)
+                        through mail (emsdpec2024@gmail.com) or Google form
                         in the below template. Authors may
                         send full paper (after the acceptance of Abstract) for
                         inclusion in conference proceedings.<br/>
@@ -150,7 +150,7 @@ function Registration() {
             </TableContainer>
 
             <h5 style={{ marginTop: "10px" }}>
-                * The registration fee does not include GST or any other taxes.
+                * Late fee of Rs 500 after last date.
             </h5>
 
             <div className={styles.rules}>
