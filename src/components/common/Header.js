@@ -31,7 +31,7 @@ function Header() {
                         className={styles.logo}
                     />
                     <img
-                        src={getAssetName("/assets/logos/1.png")}
+                        src={getAssetName("/assets/logos/bjnano.png")}
                         alt="EMSD 2024"
                         className={styles.logo}
                     />

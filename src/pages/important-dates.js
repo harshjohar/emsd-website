@@ -14,25 +14,25 @@ import styles from "@/styles/pages/importantdates.module.scss";
 const events = [
     {
         title: "Abstract Submission",
-        date: "April 10, 2024",
+        date: "May 10, 2024",
         description: "",
         icon: <LaptopMac />,
     },
     {
-        title: "Notification of Acceptance",
-        date: "April 15, 2024",
+        title: "Authors will recieve notification of acceptance of abstract on their email",
+        date: "",
         description: "",
         icon: <MdChecklist />,
     },
     {
         title: " Last date for early bird registration",
-        date: "Upto May 20, 2024",
+        date: "Upto May 30, 2024",
         description: "",
         icon: <BiTrophy />,
     },
     {
         title: "Last date of registration with (Late fees of Rs 500)",
-        date: "June 20, 2024",
+        date: "June 25, 2024",
         description: "",
         icon: <BiTrophy />,
     },
