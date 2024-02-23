@@ -1,5 +1,3 @@
-import Head from "next/head";
-import styles from "@/styles/Home.module.scss";
 import PageLayout from "@/components/layout/PageLayout";
 import Marquee from "react-fast-marquee";
 import { getAssetName } from "@/util/githubPagesImagesUtil";
