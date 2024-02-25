@@ -17,7 +17,7 @@ export const AD_COMMITTEE = {
             // image_url: "/assets/committee/maank_gupta.jpg",
         },
         {
-            name: "Professor Reinhard Miller",
+            name: "Dr. Reinhard Miller",
             designation: "TU Darmstadt, Germany",
             // image_url: "",
         },
