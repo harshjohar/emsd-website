@@ -22,6 +22,11 @@
     margin-top: 10px;
     line-height: 25px;
     text-align: justify;
+
+    a{  
+        color: $acm-primary;
+        text-decoration: underline;
+    }
 }
 
 .technical_tracks {
