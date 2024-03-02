@@ -10,6 +10,8 @@ import { LaptopMac } from "@mui/icons-material";
 import { BiTrophy } from "react-icons/bi";
 import "react-vertical-timeline-component/style.min.css";
 import styles from "@/styles/Home.module.scss";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 const events = [
     {
@@ -71,6 +73,21 @@ const pre_speaker = [
     },
 ];
 
+const Banner = () => {
+    return (
+        <div>
+            <div className={styles.hero_box}>
+                <p className={styles.sub_heading}>
+                    International Conference on Engineered Materials for
+                    Sustainable Development
+                </p>
+                <h1>
+                    EMSD <span>2024</span>
+                </h1>
+            </div>
+        </div>
+    );
+};
 export default function Home() {
     return (
         <>
@@ -89,53 +106,38 @@ export default function Home() {
                         </p>
                     ))}
                 </Marquee>
-                <main
-                    className={styles.main}
-                    style={{
-                        backgroundImage: `url(${getAssetName(
-                            "/assets/images/college/pec_chowk.png"
-                        )})`,
-                        // height: "80vh",
-                        // width: "100%",
-                        backgroundPosition: "center",
-                        backgroundSize: "cover",
-                    }}
+                <Carousel
+                    showStatus={false}
+                    // autoPlay={true}
+                    interval={3000}
+                    // infiniteLoop={true}
                 >
-                    <div className={styles.hero_box}>
-                        <p className={styles.sub_heading}>
-                            International Conference on Engineered Materials for
-                            Sustainable Development
-                        </p>
-                        <h1>
-                            EMSD <span>2024</span>
-                        </h1>
-                        <div
-                            style={{
-                                borderBottom: "4px solid #000",
-                                width: "50px",
-                            }}
-                        />
-                    </div>
-                    {/* <h2
-                        className={styles.theme}
-                        style={{ fontSize: "3vw", fontWeight: 400 }}
+                    <div
+                        className={styles.main}
+                        style={{
+                            backgroundImage: `url(${getAssetName(
+                                "/assets/images/college/helicopter.jpeg"
+                            )})`,
+                            backgroundPosition: "center",
+                            backgroundSize: "cover",
+                        }}
                     >
-                        <i>Jointly organised by </i>
-                        <strong>PEC & NABI</strong>
-                    </h2> */}
-                    {/* <div className={styles.venue_details}>
-                        <div className={styles.dates}>
-                            <h3>Conference Dates</h3>
-                            <p>July 24-26, 2024</p>
-                        </div>
-                        <div className={styles.venue}>
-                            <h3>Venue</h3>
-                            <p>Punjab Engineering College</p>
-                            <p>(Deemed to be University)</p>
-                            <p> Sector 12, Chandigarh, India</p>
-                        </div>
-                    </div> */}
-                </main>
+                        <Banner />
+                    </div>
+
+                    <div
+                        className={styles.main}
+                        style={{
+                            backgroundImage: `url(${getAssetName(
+                                "/assets/images/nabi.png"
+                            )})`,
+                            backgroundPosition: "top-left",
+                            backgroundSize: "cover",
+                        }}
+                    >
+                        <Banner />
+                    </div>
+                </Carousel>
 
                 <div className={styles.info}>
                     <p>

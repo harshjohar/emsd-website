@@ -1,14 +1,15 @@
 @import "./variables.scss";
 
 .main {
-    height: 900px;
+    height: 700px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
 
     .hero_box {
-        width: 100%;
+        width: 70%;
         background-color: rgba($color: #fff, $alpha: 0.8);
 
         color: $acm-primary;
@@ -18,14 +19,15 @@
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
         border: 1px solid rgba(255, 255, 255, 0.18);
         z-index: 4;
-        margin-top: 30px;
+
+        border-radius: 0 20px 20px 0;
 
         padding: 20px;
 
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: center;
+        align-items: flex-start;
 
         p {
             font-size: 14px;
@@ -42,7 +44,7 @@
 
         .sub_heading {
             font-size: 36px;
-            text-align: center;
+            text-align: left;
         }
     }
 
@@ -71,7 +73,6 @@
         }
 
         .venue {
-
             // width: 60%;
             p {
                 font-size: 16px;
@@ -124,7 +125,6 @@
 
     @media screen and (max-width: 575px) {
         .hero_box {
-
             p {
                 font-size: 12px;
                 text-transform: uppercase;
@@ -156,6 +156,13 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .main {
+        height: 500px;
+        margin: 10px auto;
+    }
+}
+
 .marquee_container {
     display: flex;
     gap: 30px;
@@ -181,12 +188,11 @@
 }
 
 .pre_conference_container {
-
     margin-top: 10px;
     padding-top: 20px;
     width: 100%;
     height: auto;
-    background: linear-gradient(90deg,#fefeda 0%, #F7E8A4 50%, #FFE381 100%);
+    background: linear-gradient(90deg, #fefeda 0%, #f7e8a4 50%, #ffe381 100%);
     border-radius: 40px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
 
@@ -218,7 +224,6 @@
         display: flex;
         justify-content: space-evenly;
         padding-bottom: 20px;
-
     }
 
     .highlight {
@@ -228,10 +233,7 @@
         display: flex;
         justify-content: space-evenly;
         padding-bottom: 20px;
-
     }
-
-    
 }
 
 .heads {
@@ -253,14 +255,12 @@
         flex-direction: column;
         align-items: center;
         width: 300px;
-        
 
         img {
             height: 200px;
             border-radius: 20px;
             margin-bottom: 10px;
             object-fit: cover;
-            
         }
 
         .name {
@@ -280,6 +280,11 @@
 }
 
 @media screen and (max-width: $navbar-breakpoint) {
+    .main {
+        .hero_box {
+            width: 80%;
+        }
+    }
     .heads {
         .card {
             img {
@@ -297,6 +302,14 @@
 }
 
 @media screen and (max-width: $tablet-breakpoint) {
+
+    .main {
+        .hero_box {
+            width: 100%;
+            border-radius: 0;
+        }
+    }
+
     .heads {
         .cards {
             display: grid;
@@ -332,7 +345,6 @@
     }
 }
 
-
 .banner {
     padding: 50px 0;
 
@@ -360,7 +372,6 @@
     }
 
     .paper_wrapper {
-
         display: flex;
         flex-wrap: wrap;
         width: 100%;

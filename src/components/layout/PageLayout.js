@@ -11,8 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 function PageLayout({ children, title, description }) {
     return (
         <>
-            <div className={styles.top_bar} />
             <div className={`${styles.layout} ${inter.className}`}>
+                <div className={styles.top_bar} />
                 <Head>
                     <title>{title}</title>
                     <meta name="description" content={description} />
