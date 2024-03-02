@@ -12,6 +12,18 @@ export const SPEAKERS = [
         // link: "https://didattica.uniroma2.it/docenti/curriculum/3746-Gian-Carlo-Cardarilli/",
     },
     {
+        name: "Professor David Amabilino",
+        image: "/assets/speakers/amabilino.jpg",
+        designation: "FRSC, Director, Institute of Materials Science of Barcelona, Spain",
+        // link: "https://didattica.uniroma2.it/docenti/curriculum/3746-Gian-Carlo-Cardarilli/",
+    },
+    {
+        name: "Professor Lluϊsa Pérez-García",
+        image: "/assets/speakers/Lluisa-Perez-Garcia.png",
+        designation: "University of Barcelona, Spain",
+        // link: "https://didattica.uniroma2.it/docenti/curriculum/3746-Gian-Carlo-Cardarilli/",
+    },
+    {
         name: "Dr. Małgorzata Kujawska",
         image: "/assets/speakers/małgorzata.png",
         designation: "Poznan University of Medical Sciences, Poland",

@@ -117,5 +117,12 @@ export const COMMITTEE = {
             // track: "Women in Engineering",
             // link: "https://dtu.irins.org/profile/66973",
         },
+        {
+            name: "Dr Jayeeta Bhaumik",
+            designation: "Scientist, CIAB, Mohali",
+            image_url: "/assets/committee/jayeeta.jpeg",
+            // track: "Women in Engineering",
+            // link: "https://dtu.irins.org/profile/66973",
+        },
     ],
 };
