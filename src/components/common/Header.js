@@ -43,7 +43,7 @@ function Header() {
                 </div>
             </div>
 
-            <nav className={styles.navbar} style={{padding:"20px",}}>
+            <nav className={styles.navbar}>
                 <div className={styles.list_items_wrapper}>
                     {!menuOpen ? (
                         <Hamburger

@@ -24,7 +24,7 @@ export const SPEAKERS = [
         // link: "https://didattica.uniroma2.it/docenti/curriculum/3746-Gian-Carlo-Cardarilli/",
     },
     {
-        name: "Dr. Małgorzata Kujawska",
+        name: "Professor Małgorzata Kujawska",
         image: "/assets/speakers/małgorzata.png",
         designation: "Poznan University of Medical Sciences, Poland",
         // link: "https://www.ece.utoronto.ca/people/qian-l/",
