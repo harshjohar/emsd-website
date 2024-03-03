@@ -168,13 +168,11 @@ export default function Home() {
                         Healthcare Applications&rdquo;
                     </h1>
                     <h3 className={styles.date}>JULY 24</h3>
-                    <ul className={styles.highlight}>
-                        <li>
-                            Workshop Highlight : Expert talk on “Achieving High
-                            Impact Factor Journal Publications” by Dr. Reinhard
-                            Miller
-                        </li>
-                    </ul>
+                    <p className={styles.highlight}>
+                        <u>Workshop Highlight</u> : Expert talk on <strong>“Achieving High
+                        Impact Factor Journal Publications”</strong> by Dr. Reinhard
+                        Miller
+                    </p>
 
                     <p className={styles.sub_heading}>
                         <u>Workshop Speakers</u>
