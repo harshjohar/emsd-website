@@ -78,7 +78,7 @@
                 font-size: 16px;
             }
         }
-    }
+    } 
 
     .theme {
         background-color: rgba($color: #fff, $alpha: 0.8);
@@ -295,7 +295,61 @@
         }
     }
 }
-
+.container{
+    font-family: "gilroy";
+    min-height: 800px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    .up_left{
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        .heading{
+            text-align: center;
+            font-size: 5rem;
+            font-weight: 900;
+            line-height: 6rem;
+            color: #6ba68d;
+            u{
+                color: #000;
+            }
+        }
+       
+    }
+    .up_right{
+        width: 50%;
+        height: 50%;
+        overflow: hidden;
+        .spacer{
+            width: 100%;
+            height: 40px;
+        }
+        .carousel_root{
+            width: 100%;
+            .main{
+                height: 600px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 10px;
+            }
+        }
+    }
+    .bottom{
+        width: 100%;
+        height: 40%;
+        .sub_heading{
+            text-align: justify;
+            font-size: 30px;
+            width: 100%;
+        }
+    }
+}
 @media screen and (max-width: $tablet-breakpoint) {
 
     .main {
@@ -304,7 +358,7 @@
             border-radius: 0;
         }
     }
-
+    
     .heads {
         .card {
             img {
@@ -412,4 +466,26 @@
 
 .divider {
     margin: 30px 0;
+}
+@media screen and (max-width:1500px) {
+    .container{
+        flex-direction: column;
+        width: 100%;
+        .up_left{
+            width: 100%;
+            .heading{
+                font-size:60px;
+                width: 100%;
+            }
+        }
+        .up_right{
+            height: 40%;
+            width: 100%;
+            .main{
+                object-fit: cover;
+                object-position: top;
+                width: 100%;
+            }
+        }
+    }
 }
