@@ -9,7 +9,7 @@ export const COMMITTEE = {
         {
             name: "Prof. Ashwani Pareek",
             designation: "Executive Director, NABI, Mohali,Punjab",
-            image_url: "/assets/committee/prof-ashwani-pareek.jpeg",
+            image_url: "/assets/committee/prof-ashwani-pareek.jpg",
             // link: "https://www.iiitb.ac.in/faculty/debabrata-das/",
         },
     ],

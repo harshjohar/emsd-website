@@ -54,14 +54,15 @@
             border-radius: 20px;
 
             img {
-                height: 80px;
-                width: 80px;
-                border-radius: 30px;
-                object-fit: contain;
+                height: 90px;
+                width: 90px;
+                border-radius: 50px;
+                // object-fit: cover;
             }
 
             .data {
                 display: flex;
+                flex: 1;
                 flex-direction: column;
                 justify-content: center;
                 margin: 0 10px;
