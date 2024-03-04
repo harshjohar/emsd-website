@@ -296,7 +296,6 @@
     }
 }
 .container{
-    font-family: "gilroy";
     min-height: 800px;
     width: 100%;
     margin: 10px;
@@ -312,8 +311,8 @@
         flex-direction: column;
         .heading{
             text-align: center;
-            font-size: 5rem;
-            font-weight: 900;
+            font-size: 4rem;
+            font-weight: 700;
             line-height: 6rem;
             color: #6ba68d;
             u{
@@ -345,7 +344,7 @@
         height: 40%;
         .sub_heading{
             text-align: justify;
-            font-size: 30px;
+            font-size: 22px;
             width: 100%;
         }
     }
@@ -467,14 +466,14 @@
 .divider {
     margin: 30px 0;
 }
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1200px) {
     .container{
         flex-direction: column;
         width: 100%;
         .up_left{
             width: 100%;
             .heading{
-                font-size:60px;
+                font-size:40px;
                 width: 100%;
             }
         }
