@@ -24,6 +24,12 @@ export const SPEAKERS = [
         // link: "https://didattica.uniroma2.it/docenti/curriculum/3746-Gian-Carlo-Cardarilli/",
     },
     {
+        name: "Professor Aziz Amine",
+        image: "/assets/speakers/aziz.jpeg",
+        designation: "Hassan II University of Casablanca, Morocco",
+        // link: "https://didattica.uniroma2.it/docenti/curriculum/3746-Gian-Carlo-Cardarilli/",
+    },
+    {
         name: "Professor Małgorzata Kujawska",
         image: "/assets/speakers/małgorzata.png",
         designation: "Poznan University of Medical Sciences, Poland",
