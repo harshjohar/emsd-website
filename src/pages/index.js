@@ -106,7 +106,7 @@ export default function Home() {
                         </p>
                     ))}
                 </Marquee>
-               <HeroSection/>
+                <HeroSection />
 
                 <div className={styles.pre_conference_container}>
                     <p className={styles.sub_heading}>
@@ -118,9 +118,11 @@ export default function Home() {
                     </h1>
                     <h3 className={styles.date}>JULY 24</h3>
                     <p className={styles.highlight}>
-                        <u>Workshop Highlight</u> : Expert talk on <strong>“Achieving High
-                        Impact Factor Journal Publications”</strong> by Dr. Reinhard
-                        Miller
+                        <u>Workshop Highlight</u> : Expert talk on{" "}
+                        <strong>
+                            “Achieving High Impact Factor Journal Publications”
+                        </strong>{" "}
+                        by Dr. Reinhard Miller
                     </p>
 
                     <p className={styles.sub_heading}>
@@ -223,50 +225,66 @@ export default function Home() {
         </>
     );
 }
-const HeroSection=()=>{
-    return(
+const HeroSection = () => {
+    return (
         <>
-        <div className={styles.container}>
-               <div className={styles.up_left}>
-               <h1 className={styles.heading}>International Conference on Engineered Materials for Sustainable Development<br/><u>EMSD 2024</u></h1>
-               </div>
-               <div className={styles.up_right}>
-                <div className={styles.spacer}/>
-               <Carousel
-                    showStatus={false}
-                    autoPlay={true}
-                    interval={3000}
-                    infiniteLoop={true}
-                    className={styles.carousel_root}
-                >
-                    <div
-                        className={styles.main}
-                        style={{
-                            backgroundImage: `url(${getAssetName(
-                                "/assets/images/college/helicopter.jpeg"
-                            )})`,
-                            backgroundPosition: "center",
-                            backgroundSize: "cover",
-                            width:"100%"
-                        }}
+            <div className={styles.container}>
+                <div className={styles.up_left}>
+                    <h1 className={styles.heading}>
+                        International Conference on Engineered Materials for
+                        Sustainable Development
+                        <br />
+                        <u>EMSD 2024</u>
+                    </h1>
+                    <p className={styles.sub_heading}>July 24-26, 2024</p>
+                </div>
+                <div className={styles.up_right}>
+                    <div className={styles.spacer} />
+                    <Carousel
+                        showStatus={false}
+                        autoPlay={true}
+                        interval={3000}
+                        infiniteLoop={true}
+                        className={styles.carousel_root}
                     >
-                    </div>
+                        <div
+                            className={styles.main}
+                            style={{
+                                backgroundImage: `url(${getAssetName(
+                                    "/assets/images/college/pec_chowk.png"
+                                )})`,
+                                backgroundPosition: "top-left",
+                                backgroundSize: "cover",
+                            }}
+                        ></div>
+                        <div
+                            className={styles.main}
+                            style={{
+                                backgroundImage: `url(${getAssetName(
+                                    "/assets/images/college/helicopter.jpeg"
+                                )})`,
+                                backgroundPosition: "center",
+                                backgroundSize: "cover",
+                                width: "100%",
+                            }}
+                        ></div>
 
-                    <div
-                        className={styles.main}
-                        style={{
-                            backgroundImage: `url(${getAssetName(
-                                "/assets/images/nabi.png"
-                            )})`,
-                            backgroundPosition: "top-left",
-                            backgroundSize: "cover",
-                        }}
-                    >
-                    </div>
-                </Carousel>
-               </div>
-               <div className={styles.bottom}>
-               <p className={styles.sub_heading}> The &ldquo;Engineered Materials for Sustainable
+                        <div
+                            className={styles.main}
+                            style={{
+                                backgroundImage: `url(${getAssetName(
+                                    "/assets/images/nabi.png"
+                                )})`,
+                                backgroundPosition: "top-left",
+                                backgroundSize: "cover",
+                            }}
+                        ></div>
+                    </Carousel>
+                </div>
+                <div className={styles.bottom}>
+                    <p className={styles.sub_heading}>
+                        {" "}
+                        The &ldquo;Engineered Materials for Sustainable
                         Development&rdquo; conference addresses the urgent need
                         for sustainable practices. It focuses on
                         identifying,enhance sustainability across various
@@ -280,11 +298,10 @@ const HeroSection=()=>{
                         between researchers and industry professionals for
                         effective commercialization. Global participation
                         ensures diverse perspectives and international
-                        collaboration.</p>  
-               </div>
-                
+                        collaboration.
+                    </p>
+                </div>
             </div>
-    
         </>
-    )
-}
+    );
+};

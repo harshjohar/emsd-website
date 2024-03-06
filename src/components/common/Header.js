@@ -36,6 +36,11 @@ function Header() {
                         className={styles.logo}
                     />
                     <img
+                        src={getAssetName("/assets/logos/elsevier.png")}
+                        alt="EMSD 2024"
+                        className={styles.logo}
+                    />
+                    <img
                         src={getAssetName("/assets/logos/2.png")}
                         alt="EMSD 2024"
                         className={styles.logo}
