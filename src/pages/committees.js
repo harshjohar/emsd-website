@@ -14,7 +14,7 @@ function Committees() {
             <h1 className={styles.heading}>Organizing Committee</h1>
 
             <div className={styles.heads}>
-                {keys.slice(0,3).map((key, i) => {
+                {keys.slice(0,4).map((key, i) => {
                     return (
                         <div key={i}>
                             <h3>{key}</h3>
@@ -39,7 +39,7 @@ function Committees() {
                                                 <p className={styles.name}>
                                                     {head.name}
                                                 </p>
-                                                <p className={styles.post}>
+                                                <p className={styles.post} style={{textAlign: "center", fontSize: "14px"}}>
                                                     {head.designation}
                                                 </p>
                                                 <p className={styles.track}>
@@ -56,7 +56,7 @@ function Committees() {
             </div>
 
             <div className={styles.core}>
-                {keys.splice(3).map((key, i) => {
+                {keys.splice(4).map((key, i) => {
                     return (
                         <div key={i}>
                             <h3>{key}</h3>
