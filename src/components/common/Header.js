@@ -127,7 +127,7 @@ const headerItems = [
     },
     {
         href: "/speakers",
-        name: "Speakers",
+        name: "Confirmed Speakers",
     },
     {
         href: "/venue",
