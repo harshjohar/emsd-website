@@ -125,3 +125,18 @@
         }
     }
 }
+
+.journals {
+    font-size: 20px;
+    line-height: 40px;
+    list-style-type: upper-roman;
+
+    li {
+        font-weight: 600;
+    }
+}
+
+.imageJournals {
+    height: 500px;
+    object-fit: contain;
+}

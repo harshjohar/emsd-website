@@ -130,6 +130,10 @@ const headerItems = [
         name: "Confirmed Speakers",
     },
     {
+        href: "/journals",
+        name: "Journals Associated",
+    },
+    {
         href: "/venue",
         name: "Venue/Accomodation",
     },
