@@ -46,6 +46,20 @@ export const SPEAKERS = [
         // link: "https://www.ece.utoronto.ca/people/qian-l/",
     },
     {
+        name: "Professor Sven Ingebrandt",
+        image: "/assets/speakers/Professor Sven Ingebrandt.png",
+        designation:
+            "Director, Institute of Materials in Electrical Engineering 1, RWTH Aachen University, Germany",
+        // link: "https://www.ece.utoronto.ca/people/qian-l/",
+    },
+    {
+        name: "Professor César Rodriguez Emmenegger",
+        image: "/assets/speakers/Professor César Rodriguez Emmenegger.jpg",
+        designation:
+            "Institute for Bioengineering of Catalonia (IBEC) & Catalan Institute for Research and Advanced Studies (ICREA), Barcelona, Spain",
+        // link: "https://www.ece.utoronto.ca/people/qian-l/",
+    },
+    {
         name: "Professor Vijay Kumar Thakur",
         image: "/assets/speakers/vijaykumar.png",
         designation: "SRUC, Edinburgh, UK",

@@ -280,7 +280,7 @@ export const AD_COMMITTEE = {
             // image_url: "/assets/committee/snigh-subhash-c.jpg",
         },
         {
-            name: "Dr. Shriknat Mantri",
+            name: "Dr. Shrikant Mantri",
             designation: "NABI, Mohali",
             // image_url: "/assets/committee/Chanan Singh.jpg",
         },
