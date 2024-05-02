@@ -60,6 +60,13 @@ export const SPEAKERS = [
         // link: "https://www.ece.utoronto.ca/people/qian-l/",
     },
     {
+        name: "Professor  Federico Polo",
+        image: "/assets/speakers/Professor Federico Polo .jpg",
+        designation:
+            "Department of Molecular Sciences and Nanosystems, Ca' Foscari University of Venice, Italy. ",
+        // link: "https://www.ece.utoronto.ca/people/qian-l/",
+    },
+    {
         name: "Professor Vijay Kumar Thakur",
         image: "/assets/speakers/vijaykumar.png",
         designation: "SRUC, Edinburgh, UK",
@@ -99,6 +106,13 @@ export const SPEAKERS = [
         name: "Dr Gurwinder Singh",
         designation: "The University of Newcastle, Australia",
         image: "/assets/speakers/Dr Gurwinder Singh.png",
+        // link: "",
+    },
+    {
+        name: "Professor Hardik Gohel",
+        designation:
+            "Director, Applied AI Research Laboratory,University of Houston at Victoria, Texas, USA",
+        image: "/assets/speakers/Professor Hardik Gohel.jpg",
         // link: "",
     },
 ];
