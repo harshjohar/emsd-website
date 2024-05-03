@@ -35,7 +35,7 @@ function createData(category, IndPart, ForPart) {
 }
 
 const regRows = [
-    createData("Students (Ph.D, UG, PG)", "₹3,000", "USD 200"),
+    createData("Students (Ph.D, UG, PG)/Post Doc/RA", "₹3,000", "USD 200"),
     createData("Faculty/Academiat", "₹5,000", "USD 200"),
     createData("Industry", "₹6,000", "USD 200"),
     createData("Accompany Person", "₹1,500", "USD 100"),
