@@ -16,7 +16,7 @@ import { Carousel } from "react-responsive-carousel";
 const events = [
     {
         title: "Abstract Submission",
-        date: "May 10, 2024",
+        date: "May 31, 2024",
         description: "",
         icon: <LaptopMac />,
     },
@@ -28,7 +28,7 @@ const events = [
     },
     {
         title: "Early bird Registration",
-        date: "upto May 30, 2024",
+        date: "upto June 15, 2024",
         description: "",
         icon: <BiTrophy />,
     },

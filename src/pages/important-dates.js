@@ -14,7 +14,7 @@ import styles from "@/styles/pages/importantdates.module.scss";
 const events = [
     {
         title: "Abstract Submission",
-        date: "May 10, 2024",
+        date: "May 31, 2024",
         description: "",
         icon: <LaptopMac />,
     },
@@ -26,7 +26,7 @@ const events = [
     },
     {
         title: " Last date for early bird registration",
-        date: "Upto May 30, 2024",
+        date: "Upto June 15, 2024",
         description: "",
         icon: <BiTrophy />,
     },
