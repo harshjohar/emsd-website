@@ -39,6 +39,11 @@ function journals() {
                 <li>
                     Hybrid Advances (Elsevier, Impact Factor coming this year)
                 </li>
+                <a>(https://www.sciencedirect.com/journal/hybrid-advances/about/call-for-papers#emerging-hybrid-materials-for-advanced-applications-2024)</a>
+
+                <li>Journal of BME Frontiers [A SCIENCE PARTNER JOURNAL] [<a href="\Call_for_Paper_BMEF.pdf" target = "_blank">Call for Papers: Special Issue on Functonal Materials for Sustainable Biomedical Engineering</a>] </li>
+
+                <a>(https://spj.science.org/page/bmef/si/functional-materials)</a>
             </ol>
 
             {/* eslint-disable-next-line @next/next/no-img-element */}
