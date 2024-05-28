@@ -42,7 +42,7 @@ function journals() {
                 <a href="https://www.sciencedirect.com/journal/hybrid-advances/about/call-for-papers#emerging-hybrid-materials-for-advanced-applications-2024" target="_blank">
                     (https://www.sciencedirect.com/journal/hybrid-advances/about/call-for-papers#emerging-hybrid-materials-for-advanced-applications-2024)</a>
 
-                <li>Journal of BME Frontiers [A SCIENCE PARTNER JOURNAL] [<a href="\Call_for_Paper_BMEF.pdf" target = "_blank">Call for Papers: Special Issue on Functonal Materials for Sustainable Biomedical Engineering</a>] </li>
+                <li>Journal of BME Frontiers [A SCIENCE PARTNER JOURNAL] [<a href="/Call for Paper  Functional Materials for Sustainable Biomedical Engineering - BMEF.docx" target = "_blank">Call for Papers: Special Issue on Functonal Materials for Sustainable Biomedical Engineering</a>] </li>
 
                 <a href="https://spj.science.org/page/bmef/si/functional-materials" target="_blank">
                     (https://spj.science.org/page/bmef/si/functional-materials)</a>
