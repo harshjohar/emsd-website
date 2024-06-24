@@ -115,4 +115,74 @@ export const SPEAKERS = [
         image: "/assets/speakers/Professor Hardik Gohel.jpg",
         // link: "",
     },
+    {
+        name : "Professor Shobha Shukla",
+        designation : "IIT Bombay",
+        image: "/assets/speakers/Prof Shobha Shukla .jpg",
+    },
+    {
+        name : "Professor P. Gopinath",
+        designation : "F.R.S.C., IIT Roorkee",
+        image : "/assets/speakers/Prof P Gopinath.jpg"
+    },
+    {
+        name : "Professor Sameer Sapra",
+        designation : "IIT Delhi",
+        image : "/assets/speakers/Prof Sameer Sapra.jpg"
+    },
+    {
+        name : "Dr Neetu Singh",
+        designation : "IIT Delhi",
+        image : "/assets/speakers/Dr Neetu Singh IIT Delhi.jpg"
+    },
+    {
+        name : "Professor Narinder Singh",
+        designation : "IIT Ropar",
+        image : "/assets/speakers/Professor Narinder Singh IIT Ropar.jpg"
+    },
+    {
+        name : "Dr Vinay Sharma",
+        designation : "IIT Jammu",
+        image : "/assets/speakers/Dr Vinay Sharma.jpg"
+    },
+    {
+        name : "Dr Amit Jaiswal",
+        designation : "IIT Mandi",
+        image : "/assets/speakers/Dr Amit Jaiswal.jpg"
+    },    
+    {
+        name : "Dr. Amitabha Acharya",
+        designation : "CSIR-IHBT Palampur",
+        image : "/assets/speakers/Dr. Amitabaha Achari.jpg"
+    },    
+    {
+        name : "Dr Ankit Saneja",
+        designation : "CSIR-IHBT Palampur",
+        image : "/assets/speakers/Dr Ankit Saneja.jpg"
+    },
+    {
+        name : "Dr. Tarun Kumar Sharma",
+        designation : "GBU Gandhinagar",
+        image : "/assets/speakers/Dr Tarun Sharma.jpg"
+    },    
+    {
+        name : "Dr Manoj Munde",
+        designation : "JNU New Delhi",
+        image : "/assets/speakers/Dr Manoj Munde.jpg"
+    },    
+    {
+        name : "Professor Padmaja P Mishra",
+        designation : "SINP Kolkata",
+        image : "/assets/speakers/Dr Padmaja Mishra.jpg"
+    },    
+    {
+        name : "Professor Neeraj Dilbaghi",
+        designation : "GJUS&T Hisar",
+        image : "/assets/speakers/Professor Neeraj Dilbaghi.jpg"
+    },    
+    {
+        name : "Dr Sonu Gandhi",
+        designation : "F.R.S.C. NIAB Hyderabad",
+        image : "/assets/speakers/Dr Sonu Gandhi.jpg"
+    },
 ];
