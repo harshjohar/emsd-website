@@ -189,7 +189,7 @@
 
 .pre_conference_container {
     margin-top: 10px;
-    padding-top: 20px;
+    padding: 20px;
     width: 100%;
     height: auto;
     background: linear-gradient(90deg, #fefeda 0%, #f7e8a4 50%, #ffe381 100%);
@@ -206,6 +206,7 @@
 
     .sub_heading {
         padding-bottom: 20px;
+        padding-top : 20px;
         font-size: 28px;
         text-align: center;
         color: $acm-primary;
@@ -226,6 +227,16 @@
         text-align: center;
         font-weight: 500;
         padding-bottom: 20px;
+
+        a {
+            color: $acm-primary;
+            font-style : italic;
+        }
+    }
+
+    .bannerLogo{
+        padding-left: 15px;
+        width : 40%;
     }
 }
 
@@ -368,15 +379,20 @@
                 width: 200px !important;
             }
         }
-        .pre_conference_container {
-            .heading {
-                font-size: 25px;
-            }
-            .sub_heading {
-                font-size: 25px;
-            }
+    }
+
+    .pre_conference_container {
+        .heading {
+            font-size: 25px;
+        }
+        .sub_heading {
+            font-size: 25px;
+        }
+        .bannerLogo{
+            width : 60%;
         }
     }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -397,6 +413,9 @@
         }
         .highlight {
             font-size: 15px;
+        }
+        .bannerLogo{
+            width: 70%;
         }
     }
 }

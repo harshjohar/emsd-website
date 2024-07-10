@@ -36,6 +36,11 @@ function journals() {
                 <li>
                     Beilstein Journal of Nanotechnology [Impact Factor:3.2]{" "}
                 </li>
+                <img
+                    className={styles.imageJournals}
+                    src="/BJNANO_ EMSD 2024 special issue.jpg"
+                    alt=""
+                />
                 <li>
                     Hybrid Advances (Elsevier, Impact Factor coming this year)
                 </li>
@@ -46,14 +51,20 @@ function journals() {
 
                 <a href="https://spj.science.org/page/bmef/si/functional-materials" target="_blank">
                     (https://spj.science.org/page/bmef/si/functional-materials)</a>
+
+                <li>
+                    Frontiers in Nanotechnology (Nanomaterials for Affordable Biomedical Devices, Environmental and Energy Applications)
+                </li>
+                <a href="https://www.frontiersin.org/research-topics/65431/nanomaterials-for-affordable-biomedical-devices-environmental-and-energy-applications" target="_blank">
+                    (https://www.frontiersin.org/research-topics/65431/nanomaterials-for-affordable-biomedical-devices-environmental-and-energy-applications)</a>
+                <img
+                className={styles.frontierBanner}
+                src ="/assets/logos/FNANO_Logo.png"></img>
             </ol>
 
+
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-                className={styles.imageJournals}
-                src="/BJNANO_ EMSD 2024 special issue.jpg"
-                alt=""
-            />
+
         </PageLayout>
     );
 }

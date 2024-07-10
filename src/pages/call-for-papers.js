@@ -79,6 +79,13 @@ function CallForPapers() {
                 and Dr. Ajeet Kaushik, Florida Polytechnic University, Lakeland,
                 USA.
             </p>
+            
+            <p className={styles.subheading}>
+                    EMSD 2024 is pleased to partner with <a target = "_blank" href="https://www.frontiersin.org/journals/nanotechnology">Frontiers in Nanotechnology</a> (Impact Factor 4.1), 
+                    that is supporting the pre-conference workshop, Engineered Materials for Environmental and Healthcare Applications. Participating authors are invited to submit their work for consideration 
+                    to the Research Topic article collection, <a target = "_blank" href="https://www.frontiersin.org/research-topics/65431/nanomaterials-for-affordable-biomedical-devices-environmental-and-energy-applications">Nanomaterials for Affordable Biomedical Devices</a>, Environmental and Energy Applications, led by workshop
+                    speaker and Specialty Chief Editor, Professor Ajeet Kaushik along with Conference Convener Professor Sandeep Kumar, and Professor Yogendra Kumar Mishra.
+            </p>
 
             <div style={{ height: "30px" }} />
             <h2 className={styles.subheading}>Topics of Conference</h2>

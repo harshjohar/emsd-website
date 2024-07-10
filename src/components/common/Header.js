@@ -25,13 +25,18 @@ function Header() {
                 <div className={styles.logo_container}>
                     <img
                         src={getAssetName(
-                            "/assets/logos/5.png"
+                            "/assets/logos/pec-logo2.jpg"
                         )}
                         alt="EMSD 2024"
                         className={styles.logo}
                     />
                     <img
                         src={getAssetName("/assets/logos/bjnano.png")}
+                        alt="EMSD 2024"
+                        className={styles.logo}
+                    />
+                    <img
+                        src={getAssetName("/assets/logos/FRONTIERS_Logo.png")}
                         alt="EMSD 2024"
                         className={styles.logo}
                     />
