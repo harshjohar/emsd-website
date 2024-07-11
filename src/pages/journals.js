@@ -11,6 +11,7 @@ function journals() {
                 Journals Associated with EMSD conference
             </h1>
 
+            <div className={styles.listContainer}>
             <ol className={styles.journals}>
                 <li>
                     Advances in Colloid and Interface Science [Impact Factor:
@@ -57,10 +58,12 @@ function journals() {
                 </li>
                 <a href="https://www.frontiersin.org/research-topics/65431/nanomaterials-for-affordable-biomedical-devices-environmental-and-energy-applications" target="_blank">
                     (https://www.frontiersin.org/research-topics/65431/nanomaterials-for-affordable-biomedical-devices-environmental-and-energy-applications)</a>
+                <br/>
                 <img
                 className={styles.frontierBanner}
                 src ="/assets/logos/FNANO_Logo.png"></img>
             </ol>
+            </div>
 
 
             {/* eslint-disable-next-line @next/next/no-img-element */}

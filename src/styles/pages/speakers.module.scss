@@ -126,6 +126,10 @@
     }
 }
 
+.listContainer {
+    padding : 15px;
+}
+
 .journals {
     font-size: 20px;
     line-height: 40px;
@@ -147,7 +151,7 @@
 }
 
 .frontierBanner {
-    height: 100px;
+    height: 70px;
     width : 800px;
     object-fit: contain;
 }

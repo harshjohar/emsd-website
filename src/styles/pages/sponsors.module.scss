@@ -1,0 +1,111 @@
+@import "../variables.scss";
+
+
+.heading {
+    text-align: center;
+    color: $acm-primary;
+    position: relative;
+    margin: 20px 0;
+    margin-bottom: 40px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 60px;
+        left: 50%;
+        transform: translate(-50%);
+        background: #000;
+        bottom: -20px;
+    }
+}
+
+.subHeading {
+    text-align: center;
+    margin: 10px 0;
+    background: $acm-primary-bg;
+    border-radius: 100px;
+    font-weight: 500;
+    margin: 20px 0;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.logo_wrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top : 30px;
+    padding-bottom : 30px;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    padding : 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    .logo_wrapper img {
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logo_wrapper {
+        // div {
+        //     width: 100%;
+        //     flex-wrap: wrap;
+        // }
+        img {
+            height: 80px;
+        }
+    }
+}
+
+
+@media screen and (max-width: $navbar-breakpoint) {
+    .logo_wrapper {
+        // div {
+        //     width: 100%;
+        //     flex-wrap: wrap;
+        // }
+        img {
+            height: 90px;
+        }
+    }
+}
+
+@media screen and (max-width: $laptop-breakpoint) {
+    .logo_wrapper img {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo_wrapper {
+        // div {
+        //     width: 100%;
+        //     flex-wrap: wrap;
+        // }
+        img {
+            height: 80px;
+        }
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .logo_wrapper img {
+        height: 70px;
+    }
+}
+

@@ -36,6 +36,11 @@ function Header() {
                         className={styles.logo}
                     />
                     <img
+                        src={getAssetName("/assets/logos/bmef.png")}
+                        alt="EMSD 2024"
+                        className={styles.logo}
+                    />
+                    <img
                         src={getAssetName("/assets/logos/FRONTIERS_Logo.png")}
                         alt="EMSD 2024"
                         className={styles.logo}
@@ -137,6 +142,10 @@ const headerItems = [
     {
         href: "/journals",
         name: "Journals Associated",
+    },
+    {
+        href: "/sponsors",
+        name: "Sponsors",
     },
     {
         href: "/venue",
