@@ -37,21 +37,38 @@ function journals() {
                 <li>
                     Beilstein Journal of Nanotechnology [Impact Factor:3.2]{" "}
                 </li>
+                <a href="https://www.beilstein-journals.org/bjnano/series/113" target = "_blank">
+                (https://www.beilstein-journals.org/bjnano/series/113)</a>
+                <br/>
+
                 <img
                     className={styles.imageJournals}
                     src="/BJNANO_ EMSD 2024 special issue.jpg"
                     alt=""
                 />
+
                 <li>
                     Hybrid Advances (Elsevier, Impact Factor coming this year)
                 </li>
                 <a href="https://www.sciencedirect.com/journal/hybrid-advances/about/call-for-papers#emerging-hybrid-materials-for-advanced-applications-2024" target="_blank">
                     (https://www.sciencedirect.com/journal/hybrid-advances/about/call-for-papers#emerging-hybrid-materials-for-advanced-applications-2024)</a>
+                <br/>
+
+                <img
+                className={styles.imageJournals}
+                src = "/elsBanner.png"
+                alt = ""/>
 
                 <li>Journal of BME Frontiers [A SCIENCE PARTNER JOURNAL] [<a href="/Call for Paper  Functional Materials for Sustainable Biomedical Engineering - BMEF.docx" target = "_blank">Call for Papers: Special Issue on Functonal Materials for Sustainable Biomedical Engineering</a>] </li>
 
                 <a href="https://spj.science.org/page/bmef/si/functional-materials" target="_blank">
                     (https://spj.science.org/page/bmef/si/functional-materials)</a>
+                <br/>
+
+                <img
+                className={styles.imageJournals}
+                src = "/bmefBanner.png"
+                alt = ""/>
 
                 <li>
                     Frontiers in Nanotechnology (Nanomaterials for Affordable Biomedical Devices, Environmental and Energy Applications)
@@ -60,8 +77,9 @@ function journals() {
                     (https://www.frontiersin.org/research-topics/65431/nanomaterials-for-affordable-biomedical-devices-environmental-and-energy-applications)</a>
                 <br/>
                 <img
-                className={styles.frontierBanner}
-                src ="/assets/logos/FNANO_Logo.png"></img>
+                className={styles.imageJournals}
+                src ="/frontiersBanner.png"/>
+
             </ol>
             </div>
 

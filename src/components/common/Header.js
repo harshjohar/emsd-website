@@ -145,7 +145,7 @@ const headerItems = [
     },
     {
         href: "/sponsors",
-        name: "Sponsors",
+        name: "EMSD Sponsors",
     },
     {
         href: "/venue",
