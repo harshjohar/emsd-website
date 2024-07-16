@@ -44,7 +44,7 @@ function CallForPapers() {
         <PageLayout title={"Call For Papers | EMSD 2024"}>
             <h1 className={styles.heading}>Call For Papers</h1>
             <p className={styles.announcement}>
-                <strong>"ANNOUNCEMENT - Guidelines for making Poster : Poster specification - Vertical dimension of the poster should be 36 inch (3 feet) wide  x  48 inch (4 feet) high"</strong>
+                <strong>&ldquo;ANNOUNCEMENT - Guidelines for making Poster : Poster specification - Vertical dimension of the poster should be 36 inch (3 feet) wide  x  48 inch (4 feet) high&rdquo;</strong>
             </p>
 
             <p className={styles.subheading}>
