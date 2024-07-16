@@ -43,6 +43,10 @@ function CallForPapers() {
     return (
         <PageLayout title={"Call For Papers | EMSD 2024"}>
             <h1 className={styles.heading}>Call For Papers</h1>
+            <p className={styles.announcement}>
+                <strong>"ANNOUNCEMENT - Guidelines for making Poster : Poster specification - Vertical dimension of the poster should be 36 inch (3 feet) wide  x  48 inch (4 feet) high"</strong>
+            </p>
+
             <p className={styles.subheading}>
                 <strong>EMSD-2024</strong> serves as a premier platform
                 showcasing groundbreaking advancements and scholarly discoveries
