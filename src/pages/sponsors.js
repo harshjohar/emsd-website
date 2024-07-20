@@ -63,6 +63,11 @@ function sponsors() {
                         className={styles.logo}
                     />
                     <img
+                        src={getAssetName("/assets/logos/BRNS.png")}
+                        alt="EMSD 2024"
+                        className={styles.logo}
+                    />
+                    <img
                         src={getAssetName("/assets/logos/chd.png")}
                         alt="EMSD 2024"
                         className={styles.logo}
@@ -89,11 +94,6 @@ function sponsors() {
                     />
                     <img
                         src={getAssetName("/assets/logos/klorofil.jfif")}
-                        alt="EMSD 2024"
-                        className={styles.logo}
-                    />
-                    <img
-                        src={getAssetName("/assets/logos/merck.jpg")}
                         alt="EMSD 2024"
                         className={styles.logo}
                     />
