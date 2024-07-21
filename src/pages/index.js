@@ -106,6 +106,9 @@ export default function Home() {
                         </p>
                     ))}
                 </Marquee>
+                <Marquee className={styles.marquee_container}>
+                    <p className={styles.marquee}>Announcement II : Email for accommodation detail have been shared with all the participants</p>
+                </Marquee>
                 <HeroSection />
 
                 <div className={styles.pre_conference_container}>

@@ -8,6 +8,9 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 function Venue() {
     return (
         <PageLayout title={"Venue | EMSD 2024"}>
+            <p className={styles.announcement}>
+                <strong>&ldquo;ANNOUNCEMENT - Email for accommodation detail have been shared with all the participants&rdquo;</strong>
+            </p>
             <h1 className={styles.heading}>Venue</h1>
             <p className={styles.description}>
                 Punjab Engineering College is located in Chandigarh, Sector-12.
