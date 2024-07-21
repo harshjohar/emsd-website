@@ -109,6 +109,13 @@ export default function Home() {
                 <Marquee className={styles.marquee_container}>
                     <p className={styles.marquee}>Announcement II : Email for accommodation detail have been shared with all the participants</p>
                 </Marquee>
+
+                <Marquee className={styles.marquee_container}>
+                    <p className={styles.marquee}>
+                    <a href = "/EMSD_schedule.pdf" target = "_blank"> EMSD Conference Schedule 2024 (JULY 24th - JULY 26th) [PDF]</a>
+                    </p>
+                </Marquee>
+                
                 <HeroSection />
 
                 <div className={styles.pre_conference_container}>
