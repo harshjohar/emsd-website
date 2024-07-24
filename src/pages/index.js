@@ -115,6 +115,12 @@ export default function Home() {
                     <a href = "/EMSD_schedule.pdf" target = "_blank"> EMSD Conference Schedule 2024 (JULY 24th - JULY 26th) [PDF]</a>
                     </p>
                 </Marquee>
+
+                <Marquee className={styles.marquee_container}>
+                    <p className={styles.marquee}>
+                    <a href = "/EMSD-2024 Abstract Booklet.pdf" target = "_blank"> EMSD-2024 Abstract Booklet [PDF]</a>
+                    </p>
+                </Marquee>
                 
                 <HeroSection />
 
