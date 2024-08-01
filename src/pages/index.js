@@ -100,17 +100,6 @@ export default function Home() {
                 }
             >
                 <Marquee className={styles.marquee_container}>
-                    {ANNOUNCEMENTS.map((an, i) => (
-                        <p key={i} className={styles.marquee}>
-                            {an}
-                        </p>
-                    ))}
-                </Marquee>
-                <Marquee className={styles.marquee_container}>
-                    <p className={styles.marquee}>Announcement II : Email for accommodation detail have been shared with all the participants</p>
-                </Marquee>
-
-                <Marquee className={styles.marquee_container}>
                     <p className={styles.marquee}>
                     <a href = "/EMSD_schedule.pdf" target = "_blank"> EMSD Conference Schedule 2024 (JULY 24th - JULY 26th) [PDF]</a>
                     </p>
@@ -119,6 +108,11 @@ export default function Home() {
                 <Marquee className={styles.marquee_container}>
                     <p className={styles.marquee}>
                     <a href = "/EMSD-2024 Abstract Booklet.pdf" target = "_blank"> EMSD-2024 Abstract Booklet [PDF]</a>
+                    </p>
+                </Marquee>
+                <Marquee className={styles.marquee_container}>
+                    <p className={styles.marquee}>
+                    <a href = "https://drive.google.com/drive/folders/1RkjX7YrI2NARV15NS4EmzejFL6ikg0YN?usp=sharing" target = "_blank"> Drive Link for EMSD Photographs [CLICK HERE] </a>
                     </p>
                 </Marquee>
                 
